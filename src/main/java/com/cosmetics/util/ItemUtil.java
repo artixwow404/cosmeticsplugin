@@ -230,7 +230,7 @@ public class ItemUtil {
             logWarning("Failed to parse Base64 head texture - falling back to " + fallbackMaterial.name());
             return new ItemStack(fallbackMaterial);
 
-        } catch (MalformedURLException e) {
+        } catch (Exception e) {
             logWarning("Invalid URL in Base64 head data - falling back to " + fallbackMaterial.name());
             return new ItemStack(fallbackMaterial);
         } catch (Exception e) {
