@@ -1,0 +1,182 @@
+# GUI Configuration
+
+main-menu:
+  title: "&8&lCosmetics Menu"
+  rows: 6
+  filler:
+    material: "GRAY_STAINED_GLASS_PANE"
+    name: " "
+    lore: []
+  back-item: null
+  clear-all:
+    enabled: true
+    slot: 49
+    material: "BARRIER"
+    name: "&c&lRemove All Cosmetics"
+    lore:
+      - "&7Click to remove all active cosmetics"
+      - "&7and clear your current selection."
+
+# Category icons for main menu (supports itemsadder:, oraxen:, base64:, and vanilla materials)
+categories:
+  auras:
+    material: "BLAZE_ROD"
+  trails:
+    material: "FEATHER"
+  wings:
+    material: "ELYTRA"
+  hats:
+    material: "CARVED_PUMPKIN"
+  pets:
+    material: "WOLF_SPAWN_EGG"
+  killsounds:
+    material: "NOTE_BLOCK"
+  companions:
+    material: "PHANTOM_MEMBRANE"
+
+category-items:
+  auras:
+    slot: 10
+    material: "BLAZE_ROD"
+    name: "&c&lAuras"
+    lore:
+      - "&7Surround yourself with"
+      - "&7magical particle effects."
+      - ""
+      - "&eClick to view auras"
+  trails:
+    slot: 12
+    material: "FEATHER"
+    name: "&b&lTrails"
+    lore:
+      - "&7Leave a trail behind"
+      - "&7you as you walk."
+      - ""
+      - "&eClick to view trails"
+  wings:
+    slot: 14
+    material: "ELYTRA"
+    name: "&d&lWings"
+    lore:
+      - "&7Majestic wings on"
+      - "&7your back."
+      - ""
+      - "&eClick to view wings"
+  hats:
+    slot: 16
+    material: "CARVED_PUMPKIN"
+    name: "&e&lHats"
+    lore:
+      - "&7Stylish headwear"
+      - "&7for every occasion."
+      - ""
+      - "&eClick to view hats"
+  pets:
+    slot: 28
+    material: "WOLF_SPAWN_EGG"
+    name: "&a&lPets"
+    lore:
+      - "&7Cute companions that"
+      - "&7follow you around."
+      - ""
+      - "&eClick to view pets"
+  killsounds:
+    slot: 30
+    material: "NOTE_BLOCK"
+    name: "&c&lKill Sounds"
+    lore:
+      - "&7Custom sounds when"
+      - "&7you kill a player."
+      - ""
+      - "&eClick to view sounds"
+  companions:
+    slot: 32
+    material: "PHANTOM_MEMBRANE"
+    name: "&b&lCompanions"
+    lore:
+      - "&7Floating companions"
+      - "&7that orbit around you."
+      - ""
+      - "&eClick to view companions"
+
+cosmetic-item:
+  purchased:
+    name-format: "&a✓ %name%"
+    lore:
+      - "&7Status: &aOwned"
+      - "&7Rarity: %rarity_color%%rarity%"
+      - ""
+      - "&eLeft-click to equip"
+      - "&eRight-click to preview"
+  not-purchased:
+    name-format: "&c✗ %name%"
+    lore:
+      - "&7Status: &cNot Owned"
+      - "&7Rarity: %rarity_color%%rarity%"
+      - "&7Price: %currency_color%%price% %currency_symbol%"
+      - ""
+      - "&eLeft-click to purchase"
+      - "&eRight-click to preview"
+  equipped:
+    name-format: "&a✓ %name% &7(&aEquipped&7)"
+    lore:
+      - "&7Status: &aOwned & Equipped"
+      - "&7Rarity: %rarity_color%%rarity%"
+      - ""
+      - "&eLeft-click to unequip"
+      - "&eRight-click to preview"
+
+confirmation-menu:
+  title: "&8&lConfirm Purchase"
+  rows: 3
+  confirm:
+    slot: 11
+    material: "LIME_DYE"
+    name: "&a&lConfirm Purchase"
+    lore:
+      - "&7Buy %name% for"
+      - "&7%currency_color%%price% %currency_symbol%"
+      - ""
+      - "&eClick to confirm"
+  cancel:
+    slot: 15
+    material: "RED_DYE"
+    name: "&c&lCancel"
+    lore:
+      - "&eClick to cancel"
+
+pagination:
+  previous:
+    slot: 45
+    material: "ARROW"
+    name: "&ePrevious Page"
+    lore:
+      - "&7Go to page %prev_page%"
+  next:
+    slot: 53
+    material: "ARROW"
+    name: "&eNext Page"
+    lore:
+      - "&7Go to page %next_page%"
+  page-indicator:
+    slot: 49
+    material: "PAPER"
+    name: "&7Page %current% of %total%"
+    lore: []
+
+back-button:
+  slot: 48
+  material: "ARROW"
+  name: "&eBack"
+  lore:
+    - "&7Return to main menu"
+
+preview-menu:
+  title: "&8&lPreview: %name%"
+  rows: 3
+  close:
+    slot: 13
+    material: "BARRIER"
+    name: "&cClose Preview"
+    lore:
+      - "&7Close this preview"

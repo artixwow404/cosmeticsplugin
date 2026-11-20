@@ -1,0 +1,36 @@
+name: Cosmetics
+version: 1.0.0
+main: com.cosmetics.CosmeticsPlugin
+api-version: 1.21
+author: Cosmetics Team
+description: Complete cosmetics system with auras, trails, wings, hats, pets, kill sounds, and companions
+depend: [Vault]
+softdepend: [EssentialsX, PlayerPoints, Oraxen, ItemsAdder]
+commands:
+  cosmetics:
+    description: Open cosmetics menu
+    usage: /cosmetics [menu|give|remove|reload|clear|unlockall]
+    permission: cosmetics.use
+    aliases: [cos, cosmetic]
+permissions:
+  cosmetics.use:
+    description: Use cosmetics menu
+    default: true
+  cosmetics.admin:
+    description: Admin commands
+    default: op
+  cosmetics.give:
+    description: Give cosmetics to players
+    default: op
+  cosmetics.remove:
+    description: Remove cosmetics from players
+    default: op
+  cosmetics.reload:
+    description: Reload configuration
+    default: op
+  cosmetics.clear:
+    description: Clear player cosmetics
+    default: op
+  cosmetics.unlockall:
+    description: Unlock all cosmetics for player
+    default: op

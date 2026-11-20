@@ -1,0 +1,1097 @@
+# Cosmetics Definitions
+
+auras:
+  fire:
+    id: "fire"
+    name: "&cFire Aura"
+    description: "&7Surround yourself with flames"
+    category: "auras"
+    rarity: "EPIC"
+    enabled: true
+    particle: "FLAME"
+    particle-count: 20
+    particle-speed: 0.2
+    color: "FF4500"
+  ice:
+    id: "ice"
+    name: "&bIce Aura"
+    description: "&7Chill the air around you"
+    category: "auras"
+    rarity: "EPIC"
+    enabled: true
+    particle: "SNOWFLAKE"
+    particle-count: 15
+    particle-speed: 0.15
+    color: "00BFFF"
+  electric:
+    id: "electric"
+    name: "&eElectric Aura"
+    description: "&7Crackle with electricity"
+    category: "auras"
+    rarity: "EPIC"
+    enabled: true
+    particle: "ELECTRIC_SPARK"
+    particle-count: 25
+    particle-speed: 0.3
+    color: "FFFF00"
+  shadow:
+    id: "shadow"
+    name: "&8Shadow Aura"
+    description: "&7Embrace the darkness"
+    category: "auras"
+    rarity: "LEGENDARY"
+    enabled: true
+    particle: "DARK_SPELL"
+    particle-count: 18
+    particle-speed: 0.1
+    color: "1A1A2E"
+  magic:
+    id: "magic"
+    name: "&dMagic Aura"
+    description: "&7Radiate arcane energy"
+    category: "auras"
+    rarity: "EPIC"
+    enabled: true
+    particle: "ENCHANT"
+    particle-count: 20
+    particle-speed: 0.2
+    color: "DA70D6"
+  star:
+    id: "star"
+    name: "&fStar Aura"
+    description: "&7Shine like the cosmos"
+    category: "auras"
+    rarity: "MYTHIC"
+    enabled: true
+    particle: "END_ROD"
+    particle-count: 15
+    particle-speed: 0.1
+    color: "FFFFFF"
+  nature:
+    id: "nature"
+    name: "&aNature Aura"
+    description: "&7Bloom with life"
+    category: "auras"
+    rarity: "RARE"
+    enabled: true
+    particle: "HAPPY_VILLAGER"
+    particle-count: 12
+    particle-speed: 0.15
+    color: "32CD32"
+  energy:
+    id: "energy"
+    name: "&b&lElectrical Aura"
+    description: "&7High-voltage energy surges through you"
+    category: "auras"
+    rarity: "LEGENDARY"
+    enabled: true
+    particle: "ELECTRIC_SPARK"
+    particle-count: 30
+    particle-speed: 0.4
+    color: "00FFFF"
+  # Custom ItemsAdder/Oraxen auras (replace with your actual item IDs)
+  soul_aura:
+    id: "soul_aura"
+    name: "&5Soul Aura"
+    description: "&7Haunted by lost souls"
+    category: "auras"
+    rarity: "MYTHIC"
+    enabled: true
+    particle: "SOUL"
+    particle-count: 18
+    particle-speed: 0.15
+    color: "8B00FF"
+    item: "itemsadder:cosmetics:soul_aura"
+  void_aura:
+    id: "void_aura"
+    name: "&8&lVoid Aura"
+    description: "&7The abyss stares back"
+    category: "auras"
+    rarity: "MYTHIC"
+    enabled: true
+    particle: "DARK_SPELL"
+    particle-count: 25
+    particle-speed: 0.05
+    color: "0D0D0D"
+    item: "oraxen:void_aura"
+
+trails:
+  fire:
+    id: "fire"
+    name: "&cFire Trail"
+    description: "&7Leave a trail of fire"
+    category: "trails"
+    rarity: "EPIC"
+    enabled: true
+    particle: "FLAME"
+    particle-count: 5
+    interval: 2
+  ice:
+    id: "ice"
+    name: "&bIce Trail"
+    description: "&7Freeze the ground you walk on"
+    category: "trails"
+    rarity: "EPIC"
+    enabled: true
+    particle: "SNOWFLAKE"
+    particle-count: 4
+    interval: 2
+  star:
+    id: "star"
+    name: "&fStar Trail"
+    description: "&7Walk among the stars"
+    category: "trails"
+    rarity: "LEGENDARY"
+    enabled: true
+    particle: "END_ROD"
+    particle-count: 3
+    interval: 3
+  shadow:
+    id: "shadow"
+    name: "&8Shadow Trail"
+    description: "&7Darkness follows your steps"
+    category: "trails"
+    rarity: "EPIC"
+    enabled: true
+    particle: "DARK_SPELL"
+    particle-count: 4
+    interval: 2
+  magic:
+    id: "magic"
+    name: "&dMagic Trail"
+    description: "&7Arcane footsteps"
+    category: "trails"
+    rarity: "RARE"
+    enabled: true
+    particle: "ENCHANT"
+    particle-count: 3
+    interval: 3
+  emerald:
+    id: "emerald"
+    name: "&aEmerald Trail"
+    description: "&7Leave precious gems behind"
+    category: "trails"
+    rarity: "RARE"
+    enabled: true
+    particle: "VILLAGER_HAPPY"
+    particle-count: 3
+    interval: 3
+  electric:
+    id: "electric"
+    name: "&eElectric Trail"
+    description: "&7Sparks fly from your feet"
+    category: "trails"
+    rarity: "EPIC"
+    enabled: true
+    particle: "ELECTRIC_SPARK"
+    particle-count: 5
+    interval: 2
+  smoke:
+    id: "smoke"
+    name: "&7Smoke Trail"
+    description: "&7Mysterious smoke follows you"
+    category: "trails"
+    rarity: "COMMON"
+    enabled: true
+    particle: "SMOKE"
+    particle-count: 4
+    interval: 2
+  # Custom ItemsAdder/Oraxen trails
+  blood_trail:
+    id: "blood_trail"
+    name: "&cBlood Trail"
+    description: "&7Leave a gruesome trail"
+    category: "trails"
+    rarity: "LEGENDARY"
+    enabled: true
+    particle: "DRIP_LAVA"
+    particle-count: 3
+    interval: 1
+    item: "itemsadder:cosmetics:blood_trail"
+  rainbow_trail:
+    id: "rainbow_trail"
+    name: "&c&lR&eai&anb&bow &c&lTrail"
+    description: "&7Prismatic footsteps"
+    category: "trails"
+    rarity: "MYTHIC"
+    enabled: true
+    particle: "HAPPY_VILLAGER"
+    particle-count: 5
+    interval: 1
+    item: "oraxen:rainbow_trail"
+
+wings:
+  angel:
+    id: "angel"
+    name: "&fAngel Wings"
+    description: "&7Divine wings of light"
+    category: "wings"
+    rarity: "LEGENDARY"
+    enabled: true
+    model: "angel_wings"
+    color: "FFFFFF"
+  demon:
+    id: "demon"
+    name: "&cDemon Wings"
+    description: "&7Wings of the underworld"
+    category: "wings"
+    rarity: "LEGENDARY"
+    enabled: true
+    model: "demon_wings"
+    color: "8B0000"
+  energy:
+    id: "energy"
+    name: "&bEnergy Wings"
+    description: "&7Pure energy constructs"
+    category: "wings"
+    rarity: "MYTHIC"
+    enabled: true
+    model: "energy_wings"
+    color: "00FFFF"
+  # Custom ItemsAdder/Oraxen wings (7 more to reach 10)
+  phoenix_wings:
+    id: "phoenix_wings"
+    name: "&6Phoenix Wings"
+    description: "&7Reborn from ashes"
+    category: "wings"
+    rarity: "MYTHIC"
+    enabled: true
+    model: "phoenix_wings"
+    color: "FF4500"
+    item: "itemsadder:cosmetics:phoenix_wings"
+  dragon_wings:
+    id: "dragon_wings"
+    name: "&cDragon Wings"
+    description: "&7Wings of the ancient wyrm"
+    category: "wings"
+    rarity: "LEGENDARY"
+    enabled: true
+    model: "dragon_wings"
+    color: "DC143C"
+    item: "oraxen:dragon_wings"
+  butterfly_wings:
+    id: "butterfly_wings"
+    name: "&dButterfly Wings"
+    description: "&7Delicate and colorful"
+    category: "wings"
+    rarity: "EPIC"
+    enabled: true
+    model: "butterfly_wings"
+    color: "FF69B4"
+    item: "itemsadder:cosmetics:butterfly_wings"
+  mechanical_wings:
+    id: "mechanical_wings"
+    name: "&7Mechanical Wings"
+    description: "&7Steampunk engineering"
+    category: "wings"
+    rarity: "LEGENDARY"
+    enabled: true
+    model: "mechanical_wings"
+    color: "B87333"
+    item: "oraxen:mechanical_wings"
+  spectral_wings:
+    id: "spectral_wings"
+    name: "&5Spectral Wings"
+    description: "&7Ghostly ethereal wings"
+    category: "wings"
+    rarity: "MYTHIC"
+    enabled: true
+    model: "spectral_wings"
+    color: "9370DB"
+    item: "itemsadder:cosmetics:spectral_wings"
+  feathered_wings:
+    id: "feathered_wings"
+    name: "&fFeathered Wings"
+    description: "&7Classic bird wings"
+    category: "wings"
+    rarity: "RARE"
+    enabled: true
+    model: "feathered_wings"
+    color: "F5F5F5"
+    item: "oraxen:feathered_wings"
+  cosmic_wings:
+    id: "cosmic_wings"
+    name: "&9Cosmic Wings"
+    description: "&7Wings of the universe"
+    category: "wings"
+    rarity: "MYTHIC"
+    enabled: true
+    model: "cosmic_wings"
+    color: "4B0082"
+    item: "itemsadder:cosmetics:cosmic_wings"
+
+hats:
+  crown:
+    id: "crown"
+    name: "&6Crown"
+    description: "&7Royal headpiece"
+    category: "hats"
+    rarity: "LEGENDARY"
+    enabled: true
+    model: "crown"
+  tophat:
+    id: "tophat"
+    name: "&8Top Hat"
+    description: "&7Classy gentleman's hat"
+    category: "hats"
+    rarity: "RARE"
+    enabled: true
+    model: "tophat"
+  cowboy:
+    id: "cowboy"
+    name: "&eCowboy Hat"
+    description: "&7Yeehaw partner!"
+    category: "hats"
+    rarity: "COMMON"
+    enabled: true
+    model: "cowboy_hat"
+  santa:
+    id: "santa"
+    name: "&cSanta Hat"
+    description: "&7Ho ho ho!"
+    category: "hats"
+    rarity: "EPIC"
+    enabled: true
+    model: "santa_hat"
+  witch:
+    id: "witch"
+    name: "&5Witch Hat"
+    description: "&7Magical pointed hat"
+    category: "hats"
+    rarity: "RARE"
+    enabled: true
+    model: "witch_hat"
+  king_crown:
+    id: "king_crown"
+    name: "&6King's Crown"
+    description: "&7Fit for a ruler"
+    category: "hats"
+    rarity: "LEGENDARY"
+    enabled: true
+    model: "king_crown"
+  emperor_crown:
+    id: "emperor_crown"
+    name: "&6Emperor's Crown"
+    description: "&7Supreme authority"
+    category: "hats"
+    rarity: "MYTHIC"
+    enabled: true
+    model: "emperor_crown"
+  demon_horns:
+    id: "demon_horns"
+    name: "&cDemon Horns"
+    description: "&7Infernal horns"
+    category: "hats"
+    rarity: "EPIC"
+    enabled: true
+    model: "demon_horns"
+  cat_ears:
+    id: "cat_ears"
+    name: "&dCat Ears"
+    description: "&7Adorable cat ears"
+    category: "hats"
+    rarity: "RARE"
+    enabled: true
+    model: "cat_ears"
+  fox_ears:
+    id: "fox_ears"
+    name: "&eFox Ears"
+    description: "&7Cunning fox ears"
+    category: "hats"
+    rarity: "RARE"
+    enabled: true
+    model: "fox_ears"
+  hood:
+    id: "hood"
+    name: "&8Hood"
+    description: "&7Shadowy assassin hood"
+    category: "hats"
+    rarity: "COMMON"
+    enabled: true
+    model: "hood"
+  hardhat:
+    id: "hardhat"
+    name: "&7Hard Hat"
+    description: "&7Safety first!"
+    category: "hats"
+    rarity: "COMMON"
+    enabled: true
+    model: "hardhat"
+  pirate:
+    id: "pirate"
+    name: "&cPirate Hat"
+    description: "&7Arrr matey!"
+    category: "hats"
+    rarity: "RARE"
+    enabled: true
+    model: "pirate_hat"
+  wizard:
+    id: "wizard"
+    name: "&bWizard Hat"
+    description: "&7Arcane knowledge"
+    category: "hats"
+    rarity: "EPIC"
+    enabled: true
+    model: "wizard_hat"
+  gold_crown:
+    id: "gold_crown"
+    name: "&6Gold Crown"
+    description: "&7Pure gold royalty"
+    category: "hats"
+    rarity: "LEGENDARY"
+    enabled: true
+    model: "gold_crown"
+  ice_crown:
+    id: "ice_crown"
+    name: "&bIce Crown"
+    description: "&7Frozen monarchy"
+    category: "hats"
+    rarity: "EPIC"
+    enabled: true
+    model: "ice_crown"
+  fire_crown:
+    id: "fire_crown"
+    name: "&cFire Crown"
+    description: "&7Burning sovereignty"
+    category: "hats"
+    rarity: "EPIC"
+    enabled: true
+    model: "fire_crown"
+  bunny_ears:
+    id: "bunny_ears"
+    name: "&dBunny Ears"
+    description: "&7Hoppy ears"
+    category: "hats"
+    rarity: "COMMON"
+    enabled: true
+    model: "bunny_ears"
+  devil_horns:
+    id: "devil_horns"
+    name: "&cDevil Horns"
+    description: "&7Little red horns"
+    category: "hats"
+    rarity: "RARE"
+    enabled: true
+    model: "devil_horns"
+  halo:
+    id: "halo"
+    name: "&fHalo"
+    description: "&7Divine ring"
+    category: "hats"
+    rarity: "LEGENDARY"
+    enabled: true
+    model: "halo"
+  flower_crown:
+    id: "flower_crown"
+    name: "&dFlower Crown"
+    description: "&7Nature's beauty"
+    category: "hats"
+    rarity: "RARE"
+    enabled: true
+    model: "flower_crown"
+  viking:
+    id: "viking"
+    name: "&6Viking Helmet"
+    description: "&7Norse warrior"
+    category: "hats"
+    rarity: "EPIC"
+    enabled: true
+    model: "viking_helmet"
+  samurai:
+    id: "samurai"
+    name: "&cSamurai Helmet"
+    description: "&7Bushido spirit"
+    category: "hats"
+    rarity: "LEGENDARY"
+    enabled: true
+    model: "samurai_helmet"
+  astronaut:
+    id: "astronaut"
+    name: "&bAstronaut Helmet"
+    description: "&7Space explorer"
+    category: "hats"
+    rarity: "MYTHIC"
+    enabled: true
+    model: "astronaut_helmet"
+  crown_thorns:
+    id: "crown_thorns"
+    name: "&cCrown of Thorns"
+    description: "&7Sacred suffering"
+    category: "hats"
+    rarity: "MYTHIC"
+    enabled: true
+    model: "crown_thorns"
+  party_hat:
+    id: "party_hat"
+    name: "&dParty Hat"
+    description: "&7Celebration time!"
+    category: "hats"
+    rarity: "COMMON"
+    enabled: true
+    model: "party_hat"
+  # Custom ItemsAdder/Oraxen hats (5 more)
+  dragon_helmet:
+    id: "dragon_helmet"
+    name: "&cDragon Helmet"
+    description: "&7Fearsome dragon skull helm"
+    category: "hats"
+    rarity: "MYTHIC"
+    enabled: true
+    model: "dragon_helmet"
+    item: "itemsadder:cosmetics:dragon_helmet"
+  neon_visor:
+    id: "neon_visor"
+    name: "&bNeon Visor"
+    description: "&7Cyberpunk face shield"
+    category: "hats"
+    rarity: "LEGENDARY"
+    enabled: true
+    model: "neon_visor"
+    item: "oraxen:neon_visor"
+  plague_doctor:
+    id: "plague_doctor"
+    name: "&8Plague Doctor Mask"
+    description: "&7The doctor is in"
+    category: "hats"
+    rarity: "EPIC"
+    enabled: true
+    model: "plague_doctor"
+    item: "itemsadder:cosmetics:plague_doctor"
+  crown_of_stars:
+    id: "crown_of_stars"
+    name: "&fCrown of Stars"
+    description: "&7Celestial coronet"
+    category: "hats"
+    rarity: "MYTHIC"
+    enabled: true
+    model: "crown_of_stars"
+    item: "oraxen:crown_of_stars"
+  jester_hat:
+    id: "jester_hat"
+    name: "&dJester Hat"
+    description: "&7Fool's cap with bells"
+    category: "hats"
+    rarity: "RARE"
+    enabled: true
+    model: "jester_hat"
+    item: "itemsadder:cosmetics:jester_hat"
+
+pets:
+  cat:
+    id: "cat"
+    name: "&dCat"
+    description: "&7A cute feline companion"
+    category: "pets"
+    rarity: "COMMON"
+    enabled: true
+    entity-type: "CAT"
+    variant: "BLACK"
+  dog:
+    id: "dog"
+    name: "&eDog"
+    description: "&7Loyal canine friend"
+    category: "pets"
+    rarity: "COMMON"
+    enabled: true
+    entity-type: "WOLF"
+    variant: "DEFAULT"
+  fox:
+    id: "fox"
+    name: "&eFox"
+    description: "&7Cunning little fox"
+    category: "pets"
+    rarity: "RARE"
+    enabled: true
+    entity-type: "FOX"
+    variant: "RED"
+  wolf:
+    id: "wolf"
+    name: "&7Wolf"
+    description: "&7Wild wolf companion"
+    category: "pets"
+    rarity: "RARE"
+    enabled: true
+    entity-type: "WOLF"
+    variant: "DEFAULT"
+  panda:
+    id: "panda"
+    name: "&7Panda"
+    description: "&7Adorable bamboo eater"
+    category: "pets"
+    rarity: "EPIC"
+    enabled: true
+    entity-type: "PANDA"
+    variant: "NORMAL"
+  rabbit:
+    id: "rabbit"
+    name: "&fRabbit"
+    description: "&7Hoppy bunny"
+    category: "pets"
+    rarity: "COMMON"
+    enabled: true
+    entity-type: "RABBIT"
+    variant: "WHITE"
+  slime:
+    id: "slime"
+    name: "&aSlime"
+    description: "&7Bouncy green slime"
+    category: "pets"
+    rarity: "RARE"
+    enabled: true
+    entity-type: "SLIME"
+    size: 1
+  dragon:
+    id: "dragon"
+    name: "&cMini Dragon"
+    description: "&7Tiny but fierce"
+    category: "pets"
+    rarity: "LEGENDARY"
+    enabled: true
+    entity-type: "ENDER_DRAGON"
+    scale: 0.3
+  bee:
+    id: "bee"
+    name: "&eBee"
+    description: "&7Buzzing friend"
+    category: "pets"
+    rarity: "COMMON"
+    enabled: true
+    entity-type: "BEE"
+  axolotl:
+    id: "axolotl"
+    name: "&dAxolotl"
+    description: "&7Cute aquatic friend"
+    category: "pets"
+    rarity: "RARE"
+    enabled: true
+    entity-type: "AXOLOTL"
+    variant: "CYAN"
+  skeleton_pet:
+    id: "skeleton_pet"
+    name: "&7Skeleton Pet"
+    description: "&7Bony companion"
+    category: "pets"
+    rarity: "EPIC"
+    enabled: true
+    entity-type: "SKELETON"
+    scale: 0.7
+  magic_spirit:
+    id: "magic_spirit"
+    name: "&bMagic Spirit"
+    description: "&7Ethereal entity"
+    category: "pets"
+    rarity: "MYTHIC"
+    enabled: true
+    entity-type: "VEX"
+    scale: 0.5
+  # Custom ItemsAdder/Oraxen pets (5 more)
+  baby_warden:
+    id: "baby_warden"
+    name: "&5Baby Warden"
+    description: "&7Tiny deep dark guardian"
+    category: "pets"
+    rarity: "MYTHIC"
+    enabled: true
+    entity-type: "WARDEN"
+    scale: 0.4
+    item: "itemsadder:cosmetics:baby_warden"
+  phoenix_chick:
+    id: "phoenix_chick"
+    name: "&6Phoenix Chick"
+    description: "&7Born from flames"
+    category: "pets"
+    rarity: "LEGENDARY"
+    enabled: true
+    entity-type: "CHICKEN"
+    scale: 0.6
+    item: "oraxen:phoenix_chick"
+  void_ling:
+    id: "void_ling"
+    name: "&8Voidling"
+    description: "&7Creature from the end"
+    category: "pets"
+    rarity: "MYTHIC"
+    enabled: true
+    entity-type: "ENDERMITE"
+    scale: 0.8
+    item: "itemsadder:cosmetics:void_ling"
+  mechanical_spider:
+    id: "mechanical_spider"
+    name: "&7Mechanical Spider"
+    description: "&7Clockwork arachnid"
+    category: "pets"
+    rarity: "EPIC"
+    enabled: true
+    entity-type: "SPIDER"
+    scale: 0.5
+    item: "oraxen:mechanical_spider"
+  celestial_fox:
+    id: "celestial_fox"
+    name: "&bCelestial Fox"
+    description: "&7Star-touched kitsune"
+    category: "pets"
+    rarity: "LEGENDARY"
+    enabled: true
+    entity-type: "FOX"
+    variant: "SNOW"
+    scale: 0.9
+    item: "itemsadder:cosmetics:celestial_fox"
+
+killsounds:
+  explosion:
+    id: "explosion"
+    name: "&cExplosion"
+    description: "&7Boom!"
+    category: "killsounds"
+    rarity: "EPIC"
+    enabled: true
+    sound: "ENTITY_GENERIC_EXPLODE"
+    volume: 1.0
+    pitch: 1.0
+    radius: 50
+  anvil:
+    id: "anvil"
+    name: "&7Anvil Land"
+    description: "&7Heavy impact"
+    category: "killsounds"
+    rarity: "RARE"
+    enabled: true
+    sound: "BLOCK_ANVIL_LAND"
+    volume: 1.0
+    pitch: 1.0
+    radius: 30
+  levelup:
+    id: "levelup"
+    name: "&aLevel Up"
+    description: "&7Victory fanfare"
+    category: "killsounds"
+    rarity: "EPIC"
+    enabled: true
+    sound: "ENTITY_PLAYER_LEVELUP"
+    volume: 1.0
+    pitch: 1.2
+    radius: 40
+  enderman:
+    id: "enderman"
+    name: "&5Enderman Scream"
+    description: "&7Terrifying shriek"
+    category: "killsounds"
+    rarity: "RARE"
+    enabled: true
+    sound: "ENTITY_ENDERMAN_SCREAM"
+    volume: 1.0
+    pitch: 0.8
+    radius: 50
+  wither:
+    id: "wither"
+    name: "&cWither Death"
+    description: "&7Boss defeated"
+    category: "killsounds"
+    rarity: "LEGENDARY"
+    enabled: true
+    sound: "ENTITY_WITHER_DEATH"
+    volume: 1.0
+    pitch: 1.0
+    radius: 60
+  dragon_death:
+    id: "dragon_death"
+    name: "&5Dragon Death"
+    description: "&7The end"
+    category: "killsounds"
+    rarity: "MYTHIC"
+    enabled: true
+    sound: "ENTITY_ENDER_DRAGON_DEATH"
+    volume: 1.0
+    pitch: 1.0
+    radius: 80
+  magic:
+    id: "magic"
+    name: "&dMagic Chime"
+    description: "&7Arcane elimination"
+    category: "killsounds"
+    rarity: "EPIC"
+    enabled: true
+    sound: "BLOCK_ENCHANTMENT_TABLE_USE"
+    volume: 1.0
+    pitch: 1.5
+    radius: 30
+  glass:
+    id: "glass"
+    name: "&bGlass Break"
+    description: "&7Shattering finish"
+    category: "killsounds"
+    rarity: "RARE"
+    enabled: true
+    sound: "BLOCK_GLASS_BREAK"
+    volume: 1.0
+    pitch: 1.2
+    radius: 25
+  tnt:
+    id: "tnt"
+    name: "&cTNT Primed"
+    description: "&7Explosive kill"
+    category: "killsounds"
+    rarity: "EPIC"
+    enabled: true
+    sound: "ENTITY_TNT_PRIMED"
+    volume: 1.0
+    pitch: 1.0
+    radius: 40
+  thunder:
+    id: "thunder"
+    name: "&eThunder Strike"
+    description: "&7Lightning judgment"
+    category: "killsounds"
+    rarity: "LEGENDARY"
+    enabled: true
+    sound: "ENTITY_LIGHTNING_BOLT_THUNDER"
+    volume: 1.0
+    pitch: 1.0
+    radius: 60
+  bell:
+    id: "bell"
+    name: "&6Bell Ring"
+    description: "&7Clear victory tone"
+    category: "killsounds"
+    rarity: "RARE"
+    enabled: true
+    sound: "BLOCK_BELL_USE"
+    volume: 1.0
+    pitch: 1.0
+    radius: 30
+  note_block:
+    id: "note_block"
+    name: "&dNote Block"
+    description: "&7Musical kill"
+    category: "killsounds"
+    rarity: "COMMON"
+    enabled: true
+    sound: "BLOCK_NOTE_BLOCK_HARP"
+    volume: 1.0
+    pitch: 1.5
+    radius: 20
+  totem:
+    id: "totem"
+    name: "&6Totem Pop"
+    description: "&7Saved by totem"
+    category: "killsounds"
+    rarity: "EPIC"
+    enabled: true
+    sound: "ITEM_TOTEM_USE"
+    volume: 1.0
+    pitch: 1.0
+    radius: 40
+  phantom:
+    id: "phantom"
+    name: "&5Phantom Screech"
+    description: "&7Nightmare sound"
+    category: "killsounds"
+    rarity: "RARE"
+    enabled: true
+    sound: "ENTITY_PHANTOM_SCREECH"
+    volume: 1.0
+    pitch: 0.9
+    radius: 45
+  custom:
+    id: "custom"
+    name: "&cCustom Sound"
+    description: "&7Your own sound (resource pack required)"
+    category: "killsounds"
+    rarity: "MYTHIC"
+    enabled: true
+    sound: "CUSTOM_KILL_SOUND"
+    volume: 1.0
+    pitch: 1.0
+    radius: 50
+  # Custom ItemsAdder/Oraxen killsounds (5 more)
+  sword_clash:
+    id: "sword_clash"
+    name: "&fSword Clash"
+    description: "&7Steel meets steel"
+    category: "killsounds"
+    rarity: "EPIC"
+    enabled: true
+    sound: "itemsadder:cosmetics:sword_clash"
+    volume: 1.0
+    pitch: 1.0
+    radius: 40
+  void_echo:
+    id: "void_echo"
+    name: "&8Void Echo"
+    description: "&7The end reverberates"
+    category: "killsounds"
+    rarity: "MYTHIC"
+    enabled: true
+    sound: "oraxen:void_echo"
+    volume: 1.2
+    pitch: 0.7
+    radius: 60
+  cartoon_bonk:
+    id: "cartoon_bonk"
+    name: "&dCartoon Bonk"
+    description: "&7*bonk*"
+    category: "killsounds"
+    rarity: "RARE"
+    enabled: true
+    sound: "itemsadder:cosmetics:cartoon_bonk"
+    volume: 1.0
+    pitch: 1.5
+    radius: 25
+  divine_judgment:
+    id: "divine_judgment"
+    name: "&6Divine Judgment"
+    description: "&7Heaven's verdict"
+    category: "killsounds"
+    rarity: "LEGENDARY"
+    enabled: true
+    sound: "oraxen:divine_judgment"
+    volume: 1.3
+    pitch: 1.0
+    radius: 70
+  robotic_termination:
+    id: "robotic_termination"
+    name: "&7Target Terminated"
+    description: "&7System: elimination confirmed"
+    category: "killsounds"
+    rarity: "EPIC"
+    enabled: true
+    sound: "itemsadder:cosmetics:robotic_termination"
+    volume: 1.0
+    pitch: 0.9
+    radius: 35
+
+companions:
+  mini_dragon:
+    id: "mini_dragon"
+    name: "&cMini Dragon"
+    description: "&7Tiny dragon companion"
+    category: "companions"
+    rarity: "LEGENDARY"
+    enabled: true
+    entity-type: "ENDER_DRAGON"
+    scale: 0.2
+    orbit-radius: 2.5
+    orbit-speed: 0.04
+  fairy:
+    id: "fairy"
+    name: "&dFairy"
+    description: "&7Magical fairy friend"
+    category: "companions"
+    rarity: "EPIC"
+    enabled: true
+    entity-type: "VEX"
+    scale: 0.4
+    orbit-radius: 2.0
+    orbit-speed: 0.06
+  spirit:
+    id: "spirit"
+    name: "&bSpirit"
+    description: "&7Ethereal guardian"
+    category: "companions"
+    rarity: "EPIC"
+    enabled: true
+    entity-type: "GLOW_ITEM_FRAME"
+    scale: 0.5
+    orbit-radius: 1.8
+    orbit-speed: 0.05
+  glow_orb:
+    id: "glow_orb"
+    name: "&eGlowing Orb"
+    description: "&7Pure light companion"
+    category: "companions"
+    rarity: "RARE"
+    enabled: true
+    entity-type: "END_CRYSTAL"
+    scale: 0.3
+    orbit-radius: 2.2
+    orbit-speed: 0.04
+  mini_demon:
+    id: "mini_demon"
+    name: "&cMini Demon"
+    description: "&7Impish follower"
+    category: "companions"
+    rarity: "LEGENDARY"
+    enabled: true
+    entity-type: "BLAZE"
+    scale: 0.3
+    orbit-radius: 2.5
+    orbit-speed: 0.05
+  star_satellite:
+    id: "star_satellite"
+    name: "&fStar Satellite"
+    description: "&7Orbiting star"
+    category: "companions"
+    rarity: "MYTHIC"
+    enabled: true
+    entity-type: "END_ROD"
+    scale: 0.4
+    orbit-radius: 3.0
+    orbit-speed: 0.03
+  phoenix:
+    id: "phoenix"
+    name: "&6Phoenix"
+    description: "&7Reborn from ashes"
+    category: "companions"
+    rarity: "MYTHIC"
+    enabled: true
+    entity-type: "PHANTOM"
+    scale: 0.4
+    orbit-radius: 2.8
+    orbit-speed: 0.04
+  will_o_wisp:
+    id: "will_o_wisp"
+    name: "&5Will-o'-Wisp"
+    description: "&7Mysterious light"
+    category: "companions"
+    rarity: "EPIC"
+    enabled: true
+    entity-type: "AREA_EFFECT_CLOUD"
+    scale: 0.3
+    orbit-radius: 2.0
+    orbit-speed: 0.07
+  # Custom ItemsAdder/Oraxen companions (2 more to reach 10)
+  void_sprite:
+    id: "void_sprite"
+    name: "&8Void Sprite"
+    description: "&7Tiny fragment of the void"
+    category: "companions"
+    rarity: "MYTHIC"
+    enabled: true
+    entity-type: "ENDERMITE"
+    scale: 0.25
+    orbit-radius: 1.5
+    orbit-speed: 0.08
+    item: "itemsadder:cosmetics:void_sprite"
+  celestial_orb:
+    id: "celestial_orb"
+    name: "&bCelestial Orb"
+    description: "&7A piece of the cosmos"
+    category: "companions"
+    rarity: "LEGENDARY"
+    enabled: true
+    entity-type: "END_CRYSTAL"
+    scale: 0.35
+    orbit-radius: 2.5
+    orbit-speed: 0.04
+    item: "oraxen:celestial_orb"
+  # Exclusive Gudodama companion - 7 black BlockDisplay spheres with purple glow
+  # ADMIN ONLY - disabled in GUI, obtainable only via /cosmetics give
+  gudodama:
+    id: "gudodama"
+    name: "&5&lGudodama"
+    description: "&7Seven spheres of &5void energy &7orbiting in perfect harmony"
+    category: "companions"
+    rarity: "MYTHIC"
+    enabled: false
+    entity-type: "BLOCK_DISPLAY"
+    scale: 0.25
+    orbit-radius: 2.0
+    orbit-speed: 0.08
+    particle: "END_ROD"
+    color: "2D0050"
+    # Special properties for Gudodama
+    gudodama-spheres: 7
+    gudodama-inner-radius: 0.5
+    gudodama-outer-radius: 1.5
+    gudodama-glow-color: "2D0050"
+    gudodama-block-material: "BLACK_CONCRETE"

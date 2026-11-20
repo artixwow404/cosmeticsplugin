@@ -1,0 +1,62 @@
+# Sound Configuration
+
+# Global sound settings
+global:
+  master-volume: 1.0
+  max-radius: 100
+
+# Kill sound defaults
+killsounds:
+  default-volume: 1.0
+  default-pitch: 1.0
+  default-radius: 50
+
+# Cosmetic activation sounds
+activation:
+  aura:
+    sound: "BLOCK_BEACON_POWER_SELECT"
+    volume: 0.5
+    pitch: 1.2
+  trail:
+    sound: "ENTITY_PLAYER_BURP"
+    volume: 0.3
+    pitch: 1.5
+  wings:
+    sound: "ENTITY_ENDER_DRAGON_FLAP"
+    volume: 0.7
+    pitch: 0.8
+  hat:
+    sound: "ITEM_ARMOR_EQUIP_LEATHER"
+    volume: 0.5
+    pitch: 1.0
+  pet:
+    sound: "ENTITY_WOLF_AMBIENT"
+    volume: 0.6
+    pitch: 1.0
+  companion:
+    sound: "ENTITY_VEX_AMBIENT"
+    volume: 0.5
+    pitch: 1.2
+
+# Deactivation sounds
+deactivation:
+  sound: "UI_BUTTON_CLICK"
+  volume: 0.4
+  pitch: 1.0
+
+# Purchase sound
+purchase:
+  success:
+    sound: "ENTITY_PLAYER_LEVELUP"
+    volume: 0.6
+    pitch: 1.2
+  fail:
+    sound: "BLOCK_ANVIL_LAND"
+    volume: 0.5
+    pitch: 0.8
+
+# Preview sound
+preview:
+  sound: "UI_BUTTON_CLICK"
+  volume: 0.4
+  pitch: 1.1

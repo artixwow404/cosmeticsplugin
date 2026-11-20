@@ -1,0 +1,72 @@
+# Messages Configuration
+
+prefix: "&8[&6Cosmetics&8] &r"
+
+general:
+  no-permission: "%prefix%&cYou don't have permission to use this command."
+  player-only: "%prefix%&cThis command can only be used by players."
+  player-not-found: "%prefix%&cPlayer '&e%player%&c' not found."
+  cosmetic-not-found: "%prefix%&cCosmetic '&e%cosmetic%&c' not found."
+  category-not-found: "%prefix%&cCategory '&e%category%&c' not found."
+  reload-complete: "%prefix%&aConfiguration reloaded successfully!"
+  database-error: "%prefix%&cDatabase error occurred. Check console for details."
+  usage-menu: "%prefix%&cUsage: /cosmetics menu <player>"
+
+purchase:
+  success: "%prefix%&aYou purchased &e%name% &afor &e%price% %currency%&a!"
+  already-owned: "%prefix%&cYou already own &e%name%&c!"
+  insufficient-funds: "%prefix%&cInsufficient funds! You need &e%price% %currency%&c but have &e%balance% %currency%&c."
+  economy-unavailable: "%prefix%&cEconomy system not available for &e%currency%&c."
+  purchase-failed: "%prefix%&cPurchase failed. Please try again."
+  confirm-purchase: "%prefix%&eClick the confirm button to purchase &e%name% &efor &e%price% %currency%&e."
+
+equip:
+  success: "%prefix%&aEquipped &e%name%&a!"
+  unequip: "%prefix%&aUnequipped &e%name%&a!"
+  already-equipped: "%prefix%&cYou already have &e%name% &cequipped!"
+  not-owned: "%prefix%&cYou don't own &e%name%&c!"
+  category-limit: "%prefix%&cYou can only have one %category% equipped at a time!"
+
+clear:
+  success: "%prefix%&aAll cosmetics removed!"
+  none-equipped: "%prefix%&cYou don't have any cosmetics equipped."
+
+admin:
+  give-success: "%prefix%&aGave &e%cosmetic% &ato &e%player%&a!"
+  remove-success: "%prefix%&aRemoved &e%cosmetic% &afrom &e%player%&a!"
+  clear-success: "%prefix%&aCleared all cosmetics for &e%player%&a!"
+  unlockall-success: "%prefix%&aUnlocked all cosmetics for &e%player%&a!"
+  usage-give: "%prefix%&cUsage: /cosmetics give <player> <cosmetic>"
+  usage-remove: "%prefix%&cUsage: /cosmetics remove <player> <cosmetic>"
+  usage-clear: "%prefix%&cUsage: /cosmetics clear <player>"
+  usage-unlockall: "%prefix%&cUsage: /cosmetics unlockall <player>"
+
+pet:
+  spawned: "%prefix%&aYour pet &e%name% &ahas spawned!"
+  despawned: "%prefix%&aYour pet &e%name% &ahas been dismissed."
+  already-active: "%prefix%&cYou already have a pet active!"
+  max-pets: "%prefix%&cYou can only have one pet at a time!"
+
+companion:
+  spawned: "%prefix%&aYour companion &e%name% &ahas appeared!"
+  despawned: "%prefix%&aYour companion &e%name% &ahas vanished."
+
+wings:
+  equipped: "%prefix%&aWings &e%name% &aequipped!"
+  unequipped: "%prefix%&aWings removed!"
+
+hat:
+  equipped: "%prefix%&aHat &e%name% &aequipped!"
+  unequipped: "%prefix%&aHat removed!"
+
+killsound:
+  set: "%prefix%&aKill sound set to &e%name%&a!"
+  removed: "%prefix%&aKill sound removed!"
+
+currency:
+  coins-symbol: "Coins"
+  donatecoins-symbol: "DonateCoins"
+
+error:
+  generic: "%prefix%&cAn error occurred. Please try again."
+  internal: "%prefix%&cInternal error. Check console."

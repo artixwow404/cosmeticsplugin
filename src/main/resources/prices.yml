@@ -1,0 +1,343 @@
+# Cosmetics Prices
+# Currency: COINS (Vault/EssentialsX) or DONATECOINS (PlayerPoints)
+
+auras:
+  fire:
+    currency: "COINS"
+    price: 5000
+  ice:
+    currency: "COINS"
+    price: 5000
+  electric:
+    currency: "COINS"
+    price: 7500
+  shadow:
+    currency: "DONATECOINS"
+    price: 500
+  magic:
+    currency: "COINS"
+    price: 6000
+  star:
+    currency: "DONATECOINS"
+    price: 1000
+  nature:
+    currency: "COINS"
+    price: 3000
+  energy:
+    currency: "DONATECOINS"
+    price: 800
+  soul_aura:
+    currency: "DONATECOINS"
+    price: 1200
+  void_aura:
+    currency: "DONATECOINS"
+    price: 1500
+
+trails:
+  fire:
+    currency: "COINS"
+    price: 3000
+  ice:
+    currency: "COINS"
+    price: 3000
+  star:
+    currency: "DONATECOINS"
+    price: 400
+  shadow:
+    currency: "COINS"
+    price: 4500
+  magic:
+    currency: "COINS"
+    price: 2500
+  emerald:
+    currency: "COINS"
+    price: 2000
+  electric:
+    currency: "COINS"
+    price: 4000
+  smoke:
+    currency: "COINS"
+    price: 1000
+  blood_trail:
+    currency: "DONATECOINS"
+    price: 800
+  rainbow_trail:
+    currency: "DONATECOINS"
+    price: 1000
+
+wings:
+  angel:
+    currency: "DONATECOINS"
+    price: 1500
+  demon:
+    currency: "DONATECOINS"
+    price: 1500
+  energy:
+    currency: "DONATECOINS"
+    price: 2000
+  phoenix_wings:
+    currency: "DONATECOINS"
+    price: 2500
+  dragon_wings:
+    currency: "DONATECOINS"
+    price: 2000
+  butterfly_wings:
+    currency: "COINS"
+    price: 5000
+  mechanical_wings:
+    currency: "DONATECOINS"
+    price: 1800
+  spectral_wings:
+    currency: "DONATECOINS"
+    price: 2200
+  feathered_wings:
+    currency: "COINS"
+    price: 3500
+  cosmic_wings:
+    currency: "DONATECOINS"
+    price: 3000
+
+hats:
+  crown:
+    currency: "DONATECOINS"
+    price: 300
+  tophat:
+    currency: "COINS"
+    price: 1500
+  cowboy:
+    currency: "COINS"
+    price: 800
+  santa:
+    currency: "DONATECOINS"
+    price: 200
+  witch:
+    currency: "COINS"
+    price: 2000
+  king_crown:
+    currency: "DONATECOINS"
+    price: 500
+  emperor_crown:
+    currency: "DONATECOINS"
+    price: 1000
+  demon_horns:
+    currency: "COINS"
+    price: 3500
+  cat_ears:
+    currency: "COINS"
+    price: 1800
+  fox_ears:
+    currency: "COINS"
+    price: 1800
+  hood:
+    currency: "COINS"
+    price: 1000
+  hardhat:
+    currency: "COINS"
+    price: 500
+  pirate:
+    currency: "COINS"
+    price: 2000
+  wizard:
+    currency: "COINS"
+    price: 3000
+  gold_crown:
+    currency: "DONATECOINS"
+    price: 400
+  ice_crown:
+    currency: "COINS"
+    price: 4000
+  fire_crown:
+    currency: "COINS"
+    price: 4000
+  bunny_ears:
+    currency: "COINS"
+    price: 800
+  devil_horns:
+    currency: "COINS"
+    price: 1500
+  halo:
+    currency: "DONATECOINS"
+    price: 600
+  flower_crown:
+    currency: "COINS"
+    price: 2000
+  viking:
+    currency: "COINS"
+    price: 3000
+  samurai:
+    currency: "DONATECOINS"
+    price: 500
+  astronaut:
+    currency: "DONATECOINS"
+    price: 800
+  crown_thorns:
+    currency: "DONATECOINS"
+    price: 700
+  party_hat:
+    currency: "COINS"
+    price: 500
+  dragon_helmet:
+    currency: "DONATECOINS"
+    price: 1200
+  neon_visor:
+    currency: "DONATECOINS"
+    price: 900
+  plague_doctor:
+    currency: "DONATECOINS"
+    price: 800
+  crown_of_stars:
+    currency: "DONATECOINS"
+    price: 1500
+  jester_hat:
+    currency: "COINS"
+    price: 2500
+
+pets:
+  cat:
+    currency: "COINS"
+    price: 2000
+  dog:
+    currency: "COINS"
+    price: 2000
+  fox:
+    currency: "COINS"
+    price: 3000
+  wolf:
+    currency: "COINS"
+    price: 3000
+  panda:
+    currency: "DONATECOINS"
+    price: 300
+  rabbit:
+    currency: "COINS"
+    price: 1500
+  slime:
+    currency: "COINS"
+    price: 2500
+  dragon:
+    currency: "DONATECOINS"
+    price: 1000
+  bee:
+    currency: "COINS"
+    price: 1000
+  axolotl:
+    currency: "COINS"
+    price: 2500
+  skeleton_pet:
+    currency: "DONATECOINS"
+    price: 400
+  magic_spirit:
+    currency: "DONATECOINS"
+    price: 800
+  baby_warden:
+    currency: "DONATECOINS"
+    price: 2000
+  phoenix_chick:
+    currency: "DONATECOINS"
+    price: 1500
+  void_ling:
+    currency: "DONATECOINS"
+    price: 1800
+  mechanical_spider:
+    currency: "DONATECOINS"
+    price: 1200
+  celestial_fox:
+    currency: "DONATECOINS"
+    price: 1600
+
+killsounds:
+  explosion:
+    currency: "COINS"
+    price: 2000
+  anvil:
+    currency: "COINS"
+    price: 1500
+  levelup:
+    currency: "COINS"
+    price: 2500
+  enderman:
+    currency: "COINS"
+    price: 2000
+  wither:
+    currency: "DONATECOINS"
+    price: 300
+  dragon_death:
+    currency: "DONATECOINS"
+    price: 600
+  magic:
+    currency: "COINS"
+    price: 3000
+  glass:
+    currency: "COINS"
+    price: 1500
+  tnt:
+    currency: "COINS"
+    price: 2000
+  thunder:
+    currency: "DONATECOINS"
+    price: 400
+  bell:
+    currency: "COINS"
+    price: 1500
+  note_block:
+    currency: "COINS"
+    price: 800
+  totem:
+    currency: "COINS"
+    price: 2500
+  phantom:
+    currency: "COINS"
+    price: 2000
+  custom:
+    currency: "DONATECOINS"
+    price: 1000
+  sword_clash:
+    currency: "COINS"
+    price: 3000
+  void_echo:
+    currency: "DONATECOINS"
+    price: 800
+  cartoon_bonk:
+    currency: "COINS"
+    price: 2000
+  divine_judgment:
+    currency: "DONATECOINS"
+    price: 1000
+  robotic_termination:
+    currency: "COINS"
+    price: 4000
+
+companions:
+  mini_dragon:
+    currency: "DONATECOINS"
+    price: 1200
+  fairy:
+    currency: "DONATECOINS"
+    price: 800
+  spirit:
+    currency: "COINS"
+    price: 5000
+  glow_orb:
+    currency: "COINS"
+    price: 3000
+  mini_demon:
+    currency: "DONATECOINS"
+    price: 1000
+  star_satellite:
+    currency: "DONATECOINS"
+    price: 1500
+  phoenix:
+    currency: "DONATECOINS"
+    price: 1200
+  will_o_wisp:
+    currency: "COINS"
+    price: 6000
+  void_sprite:
+    currency: "DONATECOINS"
+    price: 1000
+  celestial_orb:
+    currency: "DONATECOINS"
+    price: 1300
+  gudodama:
+    currency: "DONATECOINS"
+    price: 2500

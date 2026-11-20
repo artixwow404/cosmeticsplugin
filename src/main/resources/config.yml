@@ -1,0 +1,68 @@
+# Cosmetics Plugin Configuration
+
+database:
+  type: "sqlite"
+  path: "plugins/Cosmetics/data.db"
+
+economy:
+  vault-enabled: true
+  playerpoints-enabled: true
+
+general:
+  max-particles-per-tick: 50
+  particle-update-interval: 1
+  pet-update-interval: 1
+  companion-update-interval: 1
+  auto-save-interval: 300
+
+gui:
+  title: "&8&lCosmetics Menu"
+  rows: 6
+  fill-empty-slots: true
+  filler-item:
+    material: "GRAY_STAINED_GLASS_PANE"
+    name: " "
+
+categories:
+  auras:
+    display-name: "&c&lAuras"
+    slot: 10
+    material: "BLAZE_ROD"
+  trails:
+    display-name: "&b&lTrails"
+    slot: 12
+    material: "FEATHER"
+  wings:
+    display-name: "&d&lWings"
+    slot: 14
+    material: "ELYTRA"
+  hats:
+    display-name: "&e&lHats"
+    slot: 16
+    material: "CARVED_PUMPKIN"
+  pets:
+    display-name: "&a&lPets"
+    slot: 28
+    material: "WOLF_SPAWN_EGG"
+  killsounds:
+    display-name: "&c&lKill Sounds"
+    slot: 30
+    material: "NOTE_BLOCK"
+  companions:
+    display-name: "&b&lCompanions"
+    slot: 32
+    material: "PHANTOM_MEMBRANE"
+
+rarity-colors:
+  COMMON: "&7"
+  RARE: "&9"
+  EPIC: "&5"
+  LEGENDARY: "&6"
+  MYTHIC: "&c&l"
+
+effects:
+  aura-radius: 1.5
+  trail-interval: 2
+  wing-flap-speed: 0.3
+  companion-orbit-radius: 2.0
+  companion-orbit-speed: 0.05
