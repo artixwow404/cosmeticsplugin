@@ -1,5 +1,7 @@
 package com.cosmetics.manager;
 
+import org.bukkit.Particle;
+import org.bukkit.event.EventHandler;
 import com.cosmetics.CosmeticsPlugin;
 import com.cosmetics.cosmetic.PetCosmetic;
 import com.cosmetics.cosmetic.CompanionCosmetic;
@@ -330,8 +332,6 @@ public class PetManager {
      */
     private void configureBlockDisplay(BlockDisplay blockDisplay, CompanionCosmetic cosmetic) {
         try {
-            // setItemDisplayTransform (same as ItemDisplay)
-            blockDisplay.setItemDisplayTransform(ItemDisplay.ItemDisplayTransform.FIXED);
 
             // setBrightness
             blockDisplay.setBrightness(new BlockDisplay.Brightness(15, 15));
