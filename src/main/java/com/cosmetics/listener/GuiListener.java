@@ -88,21 +88,6 @@ public class GuiListener implements Listener {
         event.setCancelled(true);
     }
 
-    @EventHandler
-    public void onHotbarSwap(InventoryHotbarSwapEvent event) {
-        if (!(event.getWhoClicked() instanceof Player player)) return;
-
-        String title = event.getView().getTitle();
-        if (!MessageUtil.stripColor(title).contains("Cosmetics") &&
-            !MessageUtil.stripColor(title).contains("Confirm") &&
-            !MessageUtil.stripColor(title).contains("Preview")) {
-            return;
-        }
-
-        // Cancel hotbar key swaps in cosmetics menus
-        event.setCancelled(true);
-    }
-
     private void handleCosmeticClick(Player player, String cosmeticId, boolean leftClick, boolean rightClick) {
         Cosmetic cosmetic = plugin.getCosmeticsManager().getCosmetic(cosmeticId);
         if (cosmetic == null) return;
