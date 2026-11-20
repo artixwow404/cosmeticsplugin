@@ -231,9 +231,6 @@ public class ItemUtil {
             return new ItemStack(fallbackMaterial);
 
         } catch (Exception e) {
-            logWarning("Invalid URL in Base64 head data - falling back to " + fallbackMaterial.name());
-            return new ItemStack(fallbackMaterial);
-        } catch (Exception e) {
             logWarning("Failed to create Base64 head: " + e.getMessage() + " - falling back to " + fallbackMaterial.name());
             return new ItemStack(fallbackMaterial);
         }
